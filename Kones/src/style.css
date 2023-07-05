@@ -5,8 +5,90 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url(/Kones/img/back.jpg);
-  background-repeat: no-repeat;
-  background-position: cover;
+
+.page {
+  height: 100vh;
+  width: 100vw;
+}
+#main-section {
+  height: 85vh;
+  width: 100vw;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#bottom-section {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 15vh;
+}
+
+#left-section {
+  margin: 20px;
+  width: 25%;
+  height: 95%;
+  background-color: grey;
+  filter: opacity(50%);
+}
+
+#middle-section {
+  margin: 20px;
+  width: 50%;
+  height: 95%;
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#middle-top {
+  width: 100%;
+  height: 25%;
+  background-color: grey;
+  filter: opacity(50%);
+  margin: 10px;
+}
+
+#middle-bottom {
+  width: 100%;
+  height: 75%;
+  background-color: grey;
+  filter: opacity(50%);
+  margin: 10px;
+}
+
+#right-section {
+  margin: 20px;
+  width: 25%;
+  height: 95%;
+  background-color: grey;
+  filter: opacity(50%);
+}
+
+#bottom-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#btn-list {
+  width: 20%;
+  height: 60%;
+  background-color: grey;
+  border: 2px solid white;
+  border-width: 2px 4px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+
+}
+#btn-list > i {
+  color: white;
+  font-size: 1.8rem;
 }
