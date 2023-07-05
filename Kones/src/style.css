@@ -40,8 +40,6 @@
   margin: 20px;
   width: 50%;
   height: 95%;
-
-  
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -61,7 +59,17 @@
   height: 75%;
   background-color: grey;
   filter: opacity(50%);
+  text-align: center;
+  
   /* margin: 20px; */
+}
+
+#box-middle {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7px;
 }
 
 #right-section {
@@ -96,4 +104,18 @@
   color: white;
   font-size: 1.8rem;
   cursor: pointer;
+}
+
+
+#middle-bottom h1 {
+  text-align: center;
+  margin: 5px;
+}
+
+.new-house {
+  width: 60%;
+  height: 60%;
+  border: 3px solid white;
+  margin-left: 20px;
+  margin-right: 20px;
 }
